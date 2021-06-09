@@ -1,0 +1,66 @@
+
+/*  
+body{
+    font-family:pattaya;
+}
+.para{
+        color: springgreen;
+}
+.personality{
+    background-color: darkslateblue;
+}
+.para1{
+    color:rgb(128, 2, 2)
+}
+.para2{
+    color: #ff00ff;
+}
+.my-article{
+    color: darkgoldenrod;
+/* } */
+  P::first-letter{ 
+    font-size: 30px;
+} 
+::selection{
+    background-color: cadetblue;
+}
+h1::after{
+    content: "";
+} */
+/* css float */
+
+
+div.container{
+border: greenyellow solid 10px;
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.academics{
+width: 25%;
+height: 200px;
+float: left;
+background-color: lightcoral;
+}
+.circular{
+    width: 25%;
+height: 200px;
+float: left;
+background-color: lightpink;
+
+}
+.Extra-cirricular{
+    width: 25%;
+    height: 200px;
+    float: left;
+    background-color: mediumturquoise;
+
+}
+.hobbies{
+    background-color: peru;
+    width: 25%;
+    height: 200px;
+    float: left;
+}

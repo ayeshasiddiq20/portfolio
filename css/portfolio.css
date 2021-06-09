@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+    font-family: fira Sans;
+}
+header.top-header{
+    height: 600px;
+    background-image:url(../task_images/wp6351143.jpg);
+    background-size: cover;
+background-image: linear-gradient(0,0,0,2)(0,0,0,2);
+margin-top: 0px;
+}
+header.top-header nav ul li{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+}
+header.top-header nav ul li a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+header.top-header nav ul li.right{
+    float: right;
+}
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header.top-header nav ul li a.button{
+    background-color: ghostwhite;
+    border-radius: 20px;
+}
+header.top-header nav ul li a:hover{
+    color: maroon;
+}
+
+header.top-header nav ul li a.button:hover{
+    background-color: black;
+    color: brown;
+}
+div.container {
+    color: azure;
+    text-align: center;
+    margin-top: 199.5px;
+}
+div.container .content{
+    color: rgb(101, 199, 202);
+}
+div.container a.button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: ghostwhite;
+    border-radius: 20px;
+ 
+  
+    color: black;
+}
+div.container a.button:hover{
+    background-color: black;
+    color: brown;
+}
+section.about{
+    margin-top: 15px;
+    text-align: center;
+
+}
+section.about div.about-container div.matter,
+section.about div.about-container div.vector-img{
+    
+    width: 50%;
+    float: left;
+    font-size: 20px;
+}
+.about-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+div.matter{
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-container div.matter a.button{
+    background-color: azure;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-container div.matter a.button:hover{
+    color:brown;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.menu div.parts{
+    width: 25%;
+    float: left;
+}
+div.menu div.parts .sub-heading{
+    font-size: 25px;
+    color: darkcyan;
+    margin: 10px;
+}
+div.image{
+    border:  solid 10px black;
+}
+a.link{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    margin: 5px;
+   ;
+}
+
+a.link:hover{
+ color: red;
+}
+section.why-me{
+    text-align: center;
+    margin: 50px;
+} 
+section.why-me div.why-container div.image{
+    width: 50%;
+    float: left;
+}
+.why-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.why-container{
+    margin-top: 20px;
+    font-size: 15.5px;
+    padding: 20px;
+    text-align: left;
+}
+
+.why-me-matter{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.why-me-matter a.button{
+    background-color:lightseagreen;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+.contact-img,.contact-details{
+    width: 50%;
+    float: left;
+}
+
+
+section.contact h1{
+    text-align: center;
+    font-size: 30px;
+   
+}
+.contact-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+.contact-details{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.contact-details ul{
+    margin: 10px;
+}
+
+.button-2{
+    background-color:cadetblue;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+.why-me-matter a.button:hover{
+    color:red;
+}
+.button-2:hover{
+    color: red;
+
+}
+@media(max-width:500px)
+{ header.top-header{
+    background-size: cover;
+    background-position-x: right;
+    height: 50vh;
+
+}
+    header.top-header nav ul li{display: none;
+    margin:0px;
+padding:0px;}
+header.top-header div.container  {
+    margin-top: 0px;
+}
+header.top-header div.container h1{
+    font-size: 20px;
+   
+   
+}
+header.top-header div.container p{
+    font-size: 16px;
+
+}
+header.top-header div.container a.button{
+    font-size: 16px;
+
+    
+}
+
+/* about-me */
+section.about div.about-container div.matter{
+    width: 100vw;
+    padding: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+section.about div.about-container div.matter a.button{
+    margin:5px;
+    padding:0px;
+}
+/* about-me */
+
+section.about div.about-container div.vector-img{
+    width: 100vw;
+}
+section.about div.about-container div.vector-img img{
+    width:100vw
+}
+section.about{
+    margin:0px;
+    padding:0px;
+}
+/* menu ,parts */
+div.menu div.parts{
+    width: 100vw;
+    float: none;
+    font-size: 16px;
+}
+/* why-me */
+section.why-me{
+    margin:0px;
+}
+section.why-me div.why-container div.image{
+    width:100vw;
+    border: 0px;
+   
+}
+section.why-me div.why-container{
+    padding:0px;
+    margin:0px;
+}
+section.why-me div.why-container div.why-me-matter{
+    margin:0px;
+    padding:0px;
+    font-size: 16px;
+}
+section.why-me div.why-container div.why-me-matter a.button{
+    font-size: 16px;
+    margin:5px;
+    padding:0px;
+ }
+ 
+/* contact */
+section.contact div.contact-container div.contact-img{
+    width:100vw;
+    float:none;
+  
+}
+section.contact div.contact-container div.contact-img img{
+    width:100vw;
+}
+section.contact div.contact-container div.contact-details{
+    text-align:center;
+    font-size: 16px;
+}
+div.contact-details{
+    margin:0px;
+    padding:0px;
+}
+section.contact div.contact-container div.contact-details a.button-2{
+    padding:0px;
+    margin:0px;
+}
+
+
+}

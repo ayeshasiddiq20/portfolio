@@ -1,0 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+body{
+    font-family: pacifico;
+}
+
+section.my-article{
+    color: deeppink;
+    
+}
+ header ol li a {
+    color: red
+}
+header>p{
+  background-color: darkseagreen;
+border: deeppink solid 4px;
+padding: 10px;
+   
+}
+p.para{
+    box-sizing: border-box;
+    border: cadetblue solid 40px;
+    padding :20px 5px 10px 20px;
+    margin: 40px  30px auto;
+    width: 500px;
+    text-align:center;
+    
+}
+.heading{
+    border: darkcyan  solid 5px;
+    padding: 10px 5px;
+   margin:5px auto ;
+width: 250px;
+text-align: center;
+}
+
+a.link{
+    color: tomato; 
+}
+
+

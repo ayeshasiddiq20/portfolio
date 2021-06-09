@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+    font-family: merriweather;
+ 
+background-image: url(../task_images/photo.jpg);
+background-position:cover ;
+}
+section.header div.container {
+    text-align: center;
+    font-size: 20px;
+   background-color: blanchedalmond;
+    margin-left: 150px;
+    margin-top: 20px;
+margin-right: 100px;
+margin-bottom: 130px;
+
+
+}
+
+section.header div.container h2{
+    font-size: 45px;
+  
+  
+}
+
+
+section.my-projects div.container{
+   
+   box-sizing: border-box;
+    margin:100px;
+}
+
+   
+ section.my-projects div.container div.img{
+    width: 25%;
+    background-color :rgb(86, 139, 172);
+    float: left;
+    height:200px;
+}
+section.my-project div.container div.matter{
+    width: 75%;
+    float: left;
+    height: 200px;
+  
+   
+}
+div.matter{
+    background-color: pink;
+}
+section.my-project div.contact::after{
+    content: "";
+    clear: both;
+    display: block;
+}
